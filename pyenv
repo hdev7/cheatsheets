@@ -1,0 +1,22 @@
+# List all available versions
+$ pyenv versions
+    system
+
+# Install Python3 on machine as full binary
+$ pyenv install 3.5.2
+
+# Create virtualenv out of 3.5.2
+$ pyenv virtualenv 3.5.2 developer
+$ pyenv activate developer
+$ pyenv local developer
+$ which python
+$ python -V
+
+# Install Python 2 on a machine as a full binary
+$ pyenv install 2.7.12
+
+# Create a Python 3 virtualenv
+$ pyenv virtualenv 2.7.12 systems
+$ pyenv activate developer
+$ which python
+$ python -V
