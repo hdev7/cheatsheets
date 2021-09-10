@@ -1,3 +1,8 @@
+#installs
+$ brew install pyenv
+$ brew install pyenv-virtualenv
+
+
 # List all available versions
 $ pyenv versions
     system
